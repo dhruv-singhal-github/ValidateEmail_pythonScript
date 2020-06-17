@@ -1,6 +1,6 @@
 import socket
 import smtplib
-import dns.
+import dns.resolver
 import csv
 
 records = dns.resolver.query('pilani.bits-pilani.ac.in', 'MX')
